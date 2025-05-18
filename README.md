@@ -28,3 +28,23 @@ The dataset, sourced from the UCI Machine Learning Repository, contains informat
 | `previous`  | Number of contacts performed before this campaign                   |
 | `poutcome`  | Outcome of the previous marketing campaign (e.g., success, failure) |
 | `response`  | **Target variable** – client subscribed to a term deposit (yes/no)  |
+## Exploratory Data Analysis (EDA)
+
+
+
+## Insights
+
+
+
+## Feature Engineering
+
+
+## Modelling Approach
+
+
+## Feature Importance and Buisness Value
+
+## Results
+
+
+## Recommendation For Market strategy
