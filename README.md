@@ -5,7 +5,7 @@ The project focuses on analyzing and predicting the success of term deposit subs
 ## Dataset Discription
 The dataset, sourced from the UCI Machine Learning Repository, contains information of client contacted. It includes personal data (like age, job, marital status), past interactions (campaign outcome, number of contacts), and external factors.
 ### Dataset overview
-- Total records: ~45,000
+- Total records: 45,000
 - Target variable: response (yes or no – indicating if the client subscribed to a term deposit)
 - Attributes: 17 input features + 1 output label
 ### Feature Summary
