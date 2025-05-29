@@ -41,24 +41,24 @@ EDA allows data scientists to make informed, data-driven decisions rather than g
 EDA is not just a preliminary step — it’s the foundation of every successful data science project. Without understanding the data, modeling becomes a blind process.
 In this project, EDA was essential to understanding the marketing behavior of clients and identifying key features that influence whether they subscribe to a term deposit.
 
-1. Addressing Class Imbalance 
+**1. Addressing Class Imbalance**
 Using value counts and pie charts, we observed a significant imbalance:
 Only ~11% of the customers responded with “yes”
 This insight led us to Use evaluation metrics beyond just accuracy (like F1-score, ROC-AUC).
 Consider sampling techniques during model training.
 
-2. Discovering Key Influential Features
-Through violin plots, boxplots, and correlation heatmaps, we found:
+**2. Discovering Key Influential Features :**
+Through violin plots, boxplots, and correlation heatmaps, we found that
 Duration of contact strongly correlates with positive response.
 Clients contacted via cellular had a much higher subscription rate than those via telephone.
 Month, education, and previous campaign outcomes significantly impact the likelihood of success.
 
-3. Improving Data Quality
-The pdays feature showed a high frequency of the value 999, indicating that many clients were never contacted before. This insight helped:
+**3. Improving Data Quality :**
+The pdays feature showed a high frequency of the value 999, indicating that many clients were never contacted before. This insight helped
 Engineer better features (e.g., binary flag for "contacted before").
 Prevent misleading model behavior due to outlier values.
 
-4. Visualizing Relationships
+**4. Visualizing Relationships :**
 Used heatmaps to analyze correlations among numerical variables.
 Applied violin plots and joint plots to explore relationships between categorical and numerical variables with the target variable (response).
 
