@@ -64,21 +64,21 @@ Applied violin plots and joint plots to explore relationships between categorica
 
 Finding during performing Exploratory Data Analysis(EDA) of the Dataset :-
 
-Finding unwanted column
-Finding missing values
-Finding feature with one value
-Explore the categorical features
-Finding categorical feature distribution
-Relationship between categorical feature with label
-Explore the numerical feature
-Finding the discrete numerical features
-Relation between discrete numerical feature and label
-Finding the continous features
-Distribution of continous numerical feature and label
-Finding outliers in numerical features
-Explore the correlatin between numerical feature
-Finding the pair plot
-Checking the data set is balanced or not based on target values in classification
+- Finding unwanted column
+- Finding missing values
+- Finding feature with one value
+- Explore the categorical features
+- Finding categorical feature distribution
+- Relationship between categorical feature with label
+- Explore the numerical feature
+- Finding the discrete numerical features
+- Relation between discrete numerical feature and label
+- Finding the continous features
+- Distribution of continous numerical feature and label
+- Finding outliers in numerical features
+- Explore the correlatin between numerical feature
+- Finding the pair plot
+- Checking the data set is balanced or not based on target values in classification
 
 
 ## Insights
