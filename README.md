@@ -41,9 +41,9 @@ EDA allows data scientists to make informed, data-driven decisions rather than g
 EDA is not just a preliminary step — it’s the foundation of every successful data science project. Without understanding the data, modeling becomes a blind process.
 In this project, EDA was essential to understanding the marketing behavior of clients and identifying key features that influence whether they subscribe to a term deposit.
 
-**1. Addressing Class Imbalance**
-Using value counts and pie charts, we observed a significant imbalance:
-Only ~11% of the customers responded with “yes”
+**1. Addressing Class Imbalance :**
+Using value counts and pie charts, we observed a significant imbalance
+Only 11% of the customers responded with “yes”
 This insight led us to Use evaluation metrics beyond just accuracy (like F1-score, ROC-AUC).
 Consider sampling techniques during model training.
 
