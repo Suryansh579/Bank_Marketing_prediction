@@ -29,6 +29,14 @@ The dataset, sourced from the UCI Machine Learning Repository, contains informat
 | `poutcome`  | Outcome of the previous marketing campaign (e.g., success, failure) |
 | `response`  | **Target variable** – client subscribed to a term deposit (yes/no)  |
 ## Exploratory Data Analysis (EDA)
+#### What is EDA ?
+Exploratory Data Analysis (EDA) is a critical step in the data science workflow where we deeply examine the dataset using statistics and visualizations to:
+Understand the structure and distribution of data.
+Detect outliers, anomalies, and missing values.
+Identify patterns and relationships between features.
+Inform feature selection, data cleaning, and modeling strategies.
+EDA allows data scientists to make informed, data-driven decisions rather than guessing or assuming.
+
 
 
 
