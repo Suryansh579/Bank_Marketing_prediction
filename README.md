@@ -62,7 +62,7 @@ Prevent misleading model behavior due to outlier values.
 Used heatmaps to analyze correlations among numerical variables.
 Applied violin plots and joint plots to explore relationships between categorical and numerical variables with the target variable (response).
 
-Finding during performing Exploratory Data Analysis(EDA) of the Dataset :-
+Exploratory Data Analysis Tasks include :-
 
 - Finding unwanted column
 - Finding missing values
