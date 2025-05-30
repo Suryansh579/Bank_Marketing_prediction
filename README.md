@@ -223,6 +223,22 @@ The XGBoost Classifier was selected as the final model due to its:
 
 
 #### Final Remark
+This project demonstrates a methodical machine learning approach using ensemble learning models. After baseline evaluation and rigorous hyperparameter tuning via GridSearchCV, the following results were obtained:
+| Model                    | Best CV Accuracy | Best Parameters                                                       |
+| ------------------------ | ---------------- | --------------------------------------------------------------------- |
+| Random Forest Classifier | **0.7433**       | `criterion='gini', max_depth=3, max_features='log2', n_estimators=10` |
+| XGBoost Classifier       | **0.8151**       | `learning_rate=0.1, max_depth=10, n_estimators=100`                   |
+
+Final Model Selected: XGBClassifier
+  Reason for Selection:
+
+   - Higher accuracy and better generalization
+
+   - More flexibility in tuning (e.g., learning rate, depth)
+
+   - Regularization and boosting make it robust to overfitting
+
+This makes XGBoost the optimal model for predicting client interest in term deposit subscriptions and driving strategic marketing decisions.
 
 ## Feature Importance and Buisness Value
 
