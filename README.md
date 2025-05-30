@@ -120,7 +120,7 @@ The exploratory data analysis (EDA) conducted on the dataset provided meaningful
 - **Job Type**:
   - **Retired clients** show the highest interest in subscribing to deposits.
 
-
+---
 
 ### 📈 Numerical Feature Insights
 
@@ -137,7 +137,7 @@ The exploratory data analysis (EDA) conducted on the dataset provided meaningful
 - **Correlation**:
   - No strong multicollinearity detected; numerical features provide unique insights.
 
-
+---
 
 ### ⚖️ Class Balance Check
 
