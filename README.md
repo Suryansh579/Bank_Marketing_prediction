@@ -1,14 +1,14 @@
-# Problem Statement 
+# 🎯 Problem Statement 
 The project focuses on analyzing and predicting the success of term deposit subscriptions from a bank's past marketing campaign data. The objective is two-fold:
 - To build predictive models that forecast customer responses
 - And more importantly, to extract insights that can help the bank improve the effectiveness of future marketing campaigns.
-## Dataset Discription
+## 📂 Dataset Discription
 The dataset, sourced from the UCI Machine Learning Repository, contains information of client contacted. It includes personal data (like age, job, marital status), past interactions (campaign outcome, number of contacts), and external factors.
-### Dataset overview
+### 🔢 Dataset overview
 - Total records: 45,000
 - Target variable: response (yes or no – indicating if the client subscribed to a term deposit)
 - Attributes: 17 input features + 1 output label
-### Feature Summary
+### 📋 Feature Summary
 | Feature     | Description                                                         |
 | ----------- | ------------------------------------------------------------------- |
 | `age`       | Client’s age (numeric)                                              |
@@ -28,7 +28,7 @@ The dataset, sourced from the UCI Machine Learning Repository, contains informat
 | `previous`  | Number of contacts performed before this campaign                   |
 | `poutcome`  | Outcome of the previous marketing campaign (e.g., success, failure) |
 | `response`  | **Target variable** – client subscribed to a term deposit (yes/no)  |
-## Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 #### What is EDA ?
 Exploratory Data Analysis (EDA) is a critical step in the data science workflow where we deeply examine the dataset using statistics and visualizations to:
 Understand the structure and distribution of data.
