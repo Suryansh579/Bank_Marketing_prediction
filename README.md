@@ -257,11 +257,45 @@ model_xgb.fit(X_train, y_train)
 This step allowed the model to learn patterns from the historical campaign data, optimizing to distinguish between customers who subscribed to the term deposit and those who did not.
 
 #### Model Evaluation
-Once trained, the model was evaluated on the test set using:
+Once trained, the model was evaluated on the test set using :
 model_xgb.score(X_test, y_test)
+
 Test Accuracy: 85.65%
 
 ## Feature Importance and Buisness Value
+After training the final XGBoost model, feature importance was evaluated to understand which variables most significantly influenced the prediction of whether a client would subscribe to a term deposit.
+
+#### Top Contributing Features
+The following features were identified as the most important in descending order of impact:
+| Rank | Feature            | Description                                                                  |
+| ---- | ------------------ | ---------------------------------------------------------------------------- |
+| 1️⃣  | `poutcome_success` | Indicates whether the client had a successful outcome in a previous campaign |
+| 2️⃣  | `contact_unknown`  | Reflects that the contact method used was unknown                            |
+| 3️⃣  | `month_mar`        | Client was contacted in the month of March                                   |
+| 4️⃣  | `duration`         | Duration of the last contact (in seconds)                                    |
+| 5️⃣  | `month_oct`        | Client was contacted in the month of October                                 |
+
+
+#### Business Interpretation & Value
+**Poutcome_success :**
+
+This feature had the highest predictive power. Clients who previously responded positively to marketing efforts are significantly more likely to respond again.
+Business Action: Prioritize clients with a history of successful campaign outcomes for future targeting. These customers represent high conversion potential.
+
+**Contact_unknown :**
+
+The model found value even in records with "unknown" contact methods. This suggests that how (or if) the client was contacted impacts conversion likelihood.
+Business Action: Standardize and improve data collection on contact methods to better personalize outreach strategies.
+
+**Month_mar and month_oct :**
+
+These months were strongly associated with positive client responses.
+Business Action: Consider concentrating campaign efforts in March and October, possibly due to seasonal behavior or financial planning cycles.
+
+**Duration :**
+
+The length of the last contact was a significant predictor. Longer conversations correlated with higher conversion probability.
+Business Action: Train marketing agents to focus on quality and engaging interactions rather than quick calls, potentially leading to better customer outcomes.
 
 ## Results
 
