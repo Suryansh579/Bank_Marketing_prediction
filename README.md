@@ -184,6 +184,7 @@ To compare the effectiveness of the models, both classifiers were initially trai
 
 **2. Hyperparameter Tuning with Grid Search :**
 To further improve the model performance, a Grid Search Cross-Validation technique was applied to both models. This method exhaustively tests combinations of hyperparameters to identify the best-performing configuration for each classifier.
+
    **Parameter Grids Used :**
    
    Random Forest
@@ -202,6 +203,24 @@ To further improve the model performance, a Grid Search Cross-Validation techniq
 }
 
 **3. Model Selection Strategy**
+
+After evaluating both models on:
+
+ - Cross-validation accuracy
+
+ - Model stability
+
+ - Tuning results
+
+The XGBoost Classifier was selected as the final model due to its:
+
+ - Superior cross-validation accuracy
+
+ - Efficiency with large and imbalanced datasets
+
+ - Ability to control overfitting through regularization
+
+
 
 **Final Remark**
 
