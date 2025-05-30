@@ -185,6 +185,7 @@ To compare the effectiveness of the models, both classifiers were initially trai
 **2. Hyperparameter Tuning with Grid Search :**
 To further improve the model performance, a Grid Search Cross-Validation technique was applied to both models. This method exhaustively tests combinations of hyperparameters to identify the best-performing configuration for each classifier.
    **Parameter Grids Used :**
+   
    Random Forest
 {
     'n_estimators': [10, 50, 100, 130],
