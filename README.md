@@ -84,7 +84,7 @@ Exploratory Data Analysis Tasks include :-
 ## Insights
 The exploratory data analysis (EDA) performed on the dataset provided several valuable insights into the structure, distribution, and relationships among the features. Key findings are summarized below:
 
-**1. Data Quality and Structure**
+### 1. Data Quality and Structure
 No Missing Values: The dataset is complete, with no null or missing entries in any column.
 
 No Constant Features: No feature in the dataset contains only a single unique value, implying all features contribute some variance to the data.
@@ -95,7 +95,7 @@ Total 9 categorical features were identified.
 
 Total 7 numerical features, all of which are continuous; no discrete numerical variables were found.
 
-**2. Categorical Feature Insights**
+### 2. Categorical Feature Insights
 High Cardinality:
 
 job and month have the highest number of unique categories among categorical variables.
@@ -128,7 +128,7 @@ Retirement Trend:
 
 Retired individuals show the highest engagement with term deposits compared to other job types.
 
-**3. Numerical Feature Insights**
+### 3. Numerical Feature Insights
 Distribution:
 
 Features like age and day are approximately normally distributed.
@@ -147,7 +147,7 @@ Correlation Analysis:
 
 No strong multicollinearity was observed among numerical features, suggesting that each contributes unique information to the model.
 
-**4. Class Balance Check**
+### 4. Class Balance Check
 The target variable (deposit) is balanced, meaning both classes (yes, no) are relatively evenly distributed, which is beneficial for building unbiased classification models.
 
 
