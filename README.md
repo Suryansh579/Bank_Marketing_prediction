@@ -149,7 +149,7 @@ The exploratory data analysis (EDA) conducted on the dataset provided meaningful
 EDA revealed critical behavioral patterns, key predictors like `duration`, and time-based trends that directly influence client decision-making. These insights were essential for guiding feature selection, model development, and strategic recommendations for future marketing campaigns.
 
 
-## Feature Engineering
+## 🛠️ Feature Engineering
 
 Feature engineering is the process of transforming raw data into meaningful features that improve the performance of machine learning models. It involves creating, modifying, selecting, or combining features (columns in a dataset) to help the algorithm better understand patterns in the data.
 
@@ -168,7 +168,7 @@ Feature engineering is the process of transforming raw data into meaningful feat
 
   - Log transformation / Box-Cox for skewed features
 
-## Modelling Approach
+## 🧠 Modelling Approach
 This project follows a structured and performance-focused machine learning pipeline to predict whether a customer will subscribe to a term deposit, using two powerful ensemble models: Random Forest Classifier and XGBoost Classifier.
 
 #### 1. Baseline Model Evaluation :
@@ -241,7 +241,7 @@ Final Model Selected: XGBClassifier
 This makes XGBoost the optimal model for predicting client interest in term deposit subscriptions and driving strategic marketing decisions.
 
 
-## Model Building 
+## 🏗️ Model Building 
 Based on the performance evaluation and hyperparameter tuning, the XGBoost Classifier emerged as the most effective model for predicting client subscription to term deposits.
 
 #### Final Model Configuration
@@ -262,7 +262,7 @@ model_xgb.score(X_test, y_test)
 
 Test Accuracy: 85.65%
 
-## Feature Importance and Buisness Value
+## 🌟 Feature Importance and Buisness Value
 After training the final XGBoost model, feature importance was evaluated to understand which variables most significantly influenced the prediction of whether a client would subscribe to a term deposit.
 
 #### Top Contributing Features
@@ -297,7 +297,7 @@ Business Action: Consider concentrating campaign efforts in March and October, p
 The length of the last contact was a significant predictor. Longer conversations correlated with higher conversion probability.
 Business Action: Train marketing agents to focus on quality and engaging interactions rather than quick calls, potentially leading to better customer outcomes.
 
-## Recommendation For Market strategy
+## 📌 Recommendation For Market strategy
 
  - **Target Previous Responders :** Focus on clients with a history of positive campaign outcomes (poutcome_success) for higher conversion rates.
 
