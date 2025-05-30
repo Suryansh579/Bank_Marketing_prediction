@@ -151,6 +151,22 @@ EDA revealed critical behavioral patterns, key predictors like `duration`, and t
 
 ## Feature Engineering
 
+Feature engineering is the process of transforming raw data into meaningful features that improve the performance of machine learning models. It involves creating, modifying, selecting, or combining features (columns in a dataset) to help the algorithm better understand patterns in the data.
+
+- **Key Steps in Feature Engineering**
+  -Handling missing values (e.g., imputation)
+
+  -Encoding categorical variables (e.g., label encoding, one-hot encoding)
+
+  -Creating new features (e.g., extracting year from a date)
+
+  -Scaling or normalizing numerical values
+
+  -Removing irrelevant or redundant features
+
+  -Binning or discretization of continuous variables
+
+  -Log transformation / Box-Cox for skewed features
 
 ## Modelling Approach
 
