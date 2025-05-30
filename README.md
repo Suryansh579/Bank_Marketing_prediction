@@ -171,7 +171,7 @@ Feature engineering is the process of transforming raw data into meaningful feat
 ## Modelling Approach
 This project follows a structured and performance-focused machine learning pipeline to predict whether a customer will subscribe to a term deposit, using two powerful ensemble models: Random Forest Classifier and XGBoost Classifier.
 
-**1. Baseline Model Evaluation**
+**1. Baseline Model Evaluation :**
 To compare the effectiveness of the models, both classifiers were initially trained and evaluated using 5-fold cross-validation on the training dataset. This approach ensures that the model’s performance is consistent across different data splits and reduces the risk of overfitting.
 
 **Cross-Validation Results:**
