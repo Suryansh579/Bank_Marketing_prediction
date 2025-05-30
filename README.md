@@ -182,7 +182,23 @@ To compare the effectiveness of the models, both classifiers were initially trai
 | XGBoost Classifier       | `[0.8566, 0.8576, 0.8531, 0.8565, 0.8615]` | **0.8571**    |
 
 
-**2. Hyperparameter Tuning with Grid Search**
+**2. Hyperparameter Tuning with Grid Search :**
+To further improve the model performance, a Grid Search Cross-Validation technique was applied to both models. This method exhaustively tests combinations of hyperparameters to identify the best-performing configuration for each classifier.
+   **Parameter Grids Used :**
+   Random Forest
+{
+    'n_estimators': [10, 50, 100, 130],
+    'criterion': ['gini', 'entropy'],
+    'max_depth': range(2, 4, 1),
+    'max_features': ['auto', 'log2']
+}
+
+ XGBoost
+{
+    'learning_rate': [0.5, 0.1, 0.01, 0.001],
+    'max_depth': [3, 5, 10, 20],
+    'n_estimators': [10, 50, 100, 200]
+}
 
 **3. Model Selection Strategy**
 
