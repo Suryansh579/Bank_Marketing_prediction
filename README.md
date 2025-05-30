@@ -240,6 +240,27 @@ Final Model Selected: XGBClassifier
 
 This makes XGBoost the optimal model for predicting client interest in term deposit subscriptions and driving strategic marketing decisions.
 
+
+## Model Building 
+Based on the performance evaluation and hyperparameter tuning, the XGBoost Classifier emerged as the most effective model for predicting client subscription to term deposits.
+
+#### Final Model Configuration
+The XGBoost model was instantiated using the best parameters identified during GridSearchCV:
+- Objective: Binary classification ('binary:logistic')
+- Learning Rate: 0.1 (controls the step size in updating the weights)
+- Max Depth: 10 (controls model complexity)
+- Number of Estimators: 100 (number of boosting rounds)
+
+#### Model Training
+The model was trained on the training dataset using the .fit() method:
+model_xgb.fit(X_train, y_train)
+This step allowed the model to learn patterns from the historical campaign data, optimizing to distinguish between customers who subscribed to the term deposit and those who did not.
+
+#### Model Evaluation
+Once trained, the model was evaluated on the test set using:
+model_xgb.score(X_test, y_test)
+Test Accuracy: 85.65%
+
 ## Feature Importance and Buisness Value
 
 ## Results
