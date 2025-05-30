@@ -169,7 +169,21 @@ Feature engineering is the process of transforming raw data into meaningful feat
   - Log transformation / Box-Cox for skewed features
 
 ## Modelling Approach
+This project follows a structured and performance-focused machine learning pipeline to predict whether a customer will subscribe to a term deposit, using two powerful ensemble models: Random Forest Classifier and XGBoost Classifier.
+**1. Baseline Model Evaluation**
+To compare the effectiveness of the models, both classifiers were initially trained and evaluated using 5-fold cross-validation on the training dataset. This approach ensures that the model’s performance is consistent across different data splits and reduces the risk of overfitting.
 
+| Model                    | CV Accuracy Scores                         | Mean Accuracy |
+| ------------------------ | ------------------------------------------ | ------------- |
+| Random Forest Classifier | `[0.8588, 0.8492, 0.8397, 0.8509, 0.8582]` | **0.8514**    |
+| XGBoost Classifier       | `[0.8566, 0.8576, 0.8531, 0.8565, 0.8615]` | **0.8571**    |
+
+
+**2. Hyperparameter Tuning with Grid Search**
+
+**3. Model Selection Strategy**
+
+**Final Remark**
 
 ## Feature Importance and Buisness Value
 
